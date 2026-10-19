@@ -1,0 +1,22 @@
+# Runtime dependencies (pinned). Regenerate deliberately and rerun the test suite before bumping.
+fastapi==0.115.14
+uvicorn[standard]==0.54.0
+SQLAlchemy==2.0.43
+alembic==1.20.0
+psycopg[binary]==3.3.6
+pydantic==2.14.1
+pydantic-settings==2.16.0
+email-validator==2.3.0
+argon2-cffi==25.1.0
+PyJWT==2.15.1
+python-multipart==0.0.32
+httpx==0.28.1
+redis==8.1.0
+rq==2.12.0
+python-dateutil==2.9.0.post0
+PyMuPDF==1.28.2
+pytesseract==0.3.13
+pillow==13.0.0
+python-docx==1.2.0
+scikit-learn==1.9.1
+joblib==1.6.0

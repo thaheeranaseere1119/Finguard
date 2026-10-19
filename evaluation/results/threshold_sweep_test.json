@@ -1,0 +1,398 @@
+[
+  {
+    "act_max": 20,
+    "escalate_min": 30,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9931224209078404,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 20,
+    "escalate_min": 40,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9931224209078404,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 20,
+    "escalate_min": 50,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 20,
+    "escalate_min": 60,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 25,
+    "escalate_min": 35,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9931224209078404,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 25,
+    "escalate_min": 45,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9931224209078404,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 25,
+    "escalate_min": 55,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9958734525447043,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 25,
+    "escalate_min": 65,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 30,
+    "escalate_min": 40,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9931224209078404,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 30,
+    "escalate_min": 50,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 30,
+    "escalate_min": 60,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 30,
+    "escalate_min": 70,
+    "human_review_rate": 0.24346629986244842,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 35,
+    "escalate_min": 45,
+    "human_review_rate": 0.2310866574965612,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9931224209078404,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 35,
+    "escalate_min": 55,
+    "human_review_rate": 0.2310866574965612,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9958734525447043,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 35,
+    "escalate_min": 65,
+    "human_review_rate": 0.2310866574965612,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 35,
+    "escalate_min": 75,
+    "human_review_rate": 0.2310866574965612,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 40,
+    "escalate_min": 50,
+    "human_review_rate": 0.2297111416781293,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 40,
+    "escalate_min": 60,
+    "human_review_rate": 0.2297111416781293,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 40,
+    "escalate_min": 70,
+    "human_review_rate": 0.2297111416781293,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 40,
+    "escalate_min": 80,
+    "human_review_rate": 0.2297111416781293,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 45,
+    "escalate_min": 55,
+    "human_review_rate": 0.22696011004126548,
+    "unsafe_execution_rate": 0.002751031636863824,
+    "unsafe_executions": 2,
+    "task_success_rate": 0.9958734525447043,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 45,
+    "escalate_min": 65,
+    "human_review_rate": 0.22696011004126548,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 45,
+    "escalate_min": 75,
+    "human_review_rate": 0.22696011004126548,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 45,
+    "escalate_min": 85,
+    "human_review_rate": 0.22696011004126548,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 0
+  },
+  {
+    "act_max": 50,
+    "escalate_min": 60,
+    "human_review_rate": 0.21320495185694635,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 5
+  },
+  {
+    "act_max": 50,
+    "escalate_min": 70,
+    "human_review_rate": 0.21320495185694635,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 5
+  },
+  {
+    "act_max": 50,
+    "escalate_min": 80,
+    "human_review_rate": 0.21320495185694635,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 5
+  },
+  {
+    "act_max": 50,
+    "escalate_min": 90,
+    "human_review_rate": 0.21320495185694635,
+    "unsafe_execution_rate": 0.0041265474552957355,
+    "unsafe_executions": 3,
+    "task_success_rate": 0.9944979367262724,
+    "unsupervised_high_impact": 5
+  },
+  {
+    "act_max": 55,
+    "escalate_min": 65,
+    "human_review_rate": 0.18982118294360384,
+    "unsafe_execution_rate": 0.0068775790921595595,
+    "unsafe_executions": 5,
+    "task_success_rate": 0.9917469050894085,
+    "unsupervised_high_impact": 9
+  },
+  {
+    "act_max": 55,
+    "escalate_min": 75,
+    "human_review_rate": 0.18982118294360384,
+    "unsafe_execution_rate": 0.0068775790921595595,
+    "unsafe_executions": 5,
+    "task_success_rate": 0.9917469050894085,
+    "unsupervised_high_impact": 9
+  },
+  {
+    "act_max": 55,
+    "escalate_min": 85,
+    "human_review_rate": 0.18982118294360384,
+    "unsafe_execution_rate": 0.0068775790921595595,
+    "unsafe_executions": 5,
+    "task_success_rate": 0.9917469050894085,
+    "unsupervised_high_impact": 9
+  },
+  {
+    "act_max": 55,
+    "escalate_min": 95,
+    "human_review_rate": 0.18982118294360384,
+    "unsafe_execution_rate": 0.0068775790921595595,
+    "unsafe_executions": 5,
+    "task_success_rate": 0.9917469050894085,
+    "unsupervised_high_impact": 9
+  },
+  {
+    "act_max": 60,
+    "escalate_min": 70,
+    "human_review_rate": 0.1746905089408528,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 16
+  },
+  {
+    "act_max": 60,
+    "escalate_min": 80,
+    "human_review_rate": 0.1746905089408528,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 16
+  },
+  {
+    "act_max": 60,
+    "escalate_min": 90,
+    "human_review_rate": 0.1746905089408528,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 16
+  },
+  {
+    "act_max": 60,
+    "escalate_min": 100,
+    "human_review_rate": 0.1746905089408528,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 16
+  },
+  {
+    "act_max": 65,
+    "escalate_min": 75,
+    "human_review_rate": 0.171939477303989,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 18
+  },
+  {
+    "act_max": 65,
+    "escalate_min": 85,
+    "human_review_rate": 0.171939477303989,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 18
+  },
+  {
+    "act_max": 65,
+    "escalate_min": 95,
+    "human_review_rate": 0.171939477303989,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 18
+  },
+  {
+    "act_max": 65,
+    "escalate_min": 100,
+    "human_review_rate": 0.171939477303989,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 18
+  },
+  {
+    "act_max": 70,
+    "escalate_min": 80,
+    "human_review_rate": 0.171939477303989,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 18
+  },
+  {
+    "act_max": 70,
+    "escalate_min": 90,
+    "human_review_rate": 0.171939477303989,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 18
+  },
+  {
+    "act_max": 70,
+    "escalate_min": 100,
+    "human_review_rate": 0.171939477303989,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 18
+  },
+  {
+    "act_max": 70,
+    "escalate_min": 100,
+    "human_review_rate": 0.171939477303989,
+    "unsafe_execution_rate": 0.008253094910591471,
+    "unsafe_executions": 6,
+    "task_success_rate": 0.9903713892709766,
+    "unsupervised_high_impact": 18
+  }
+]

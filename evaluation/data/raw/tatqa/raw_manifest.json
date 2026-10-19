@@ -1,0 +1,9 @@
+{
+  "dataset": "tatqa",
+  "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/master/dataset_raw/tatqa_dataset_dev.json",
+  "sha256": "8da095a819af6db3c14877c6df2d4d29960e41d1a63dd1fa853507bd2a616af5",
+  "bytes": 1637431,
+  "license": "CC-BY-4.0",
+  "homepage": "https://nextplusplus.github.io/TAT-QA/",
+  "retrieved_at": "2026-10-07T10:12:24.357418+00:00"
+}

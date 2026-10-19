@@ -1,0 +1,9 @@
+{
+  "dataset": "financebench",
+  "url": "https://huggingface.co/datasets/PatronusAI/financebench/resolve/main/financebench_merged.jsonl",
+  "sha256": "7a1c81789e0fd2f1c37057a7ec0097756d726b05e7228e68e57db8e18c54fd0b",
+  "bytes": 958087,
+  "license": "CC-BY-NC-4.0",
+  "homepage": "https://huggingface.co/datasets/PatronusAI/financebench",
+  "retrieved_at": "2026-10-07T10:12:23.527993+00:00"
+}

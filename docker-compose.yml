@@ -1,0 +1,78 @@
+# FinGuard AI — local/production-like stack.  cp .env.example .env  (set secrets)  →  docker compose up --build
+# Web UI: http://localhost:8080   ·   API docs: http://localhost:8080/api/docs
+x-backend: &backend
+  build: ./backend
+  env_file: .env
+  environment:
+    DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-finguard}:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}@db:5432/${POSTGRES_DB:-finguard}
+    REDIS_URL: redis://redis:6379/0
+    STORAGE_DIR: /data/documents
+    TESSDATA_PREFIX: /usr/share/tesseract-ocr/5/tessdata
+  volumes:
+    - documents:/data/documents        # private document store (never served by nginx)
+  depends_on:
+    db: { condition: service_healthy }
+    redis: { condition: service_healthy }
+  read_only: true
+  tmpfs: [/tmp]
+  security_opt: ["no-new-privileges:true"]
+  cap_drop: [ALL]
+  restart: unless-stopped
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-finguard}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-finguard}
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-finguard} -d ${POSTGRES_DB:-finguard}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 20
+    restart: unless-stopped
+
+  migrate:
+    <<: *backend
+    command: ["sh", "-c", "alembic upgrade head && python -m finguard.cli bootstrap"]
+    restart: "no"
+
+  api:
+    <<: *backend
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+
+  worker:
+    <<: *backend
+    command: ["python", "-m", "finguard.worker.main", "worker"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    healthcheck: { disable: true }
+
+  scheduler:
+    <<: *backend
+    command: ["python", "-m", "finguard.worker.main", "scheduler"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    healthcheck: { disable: true }
+
+  web:
+    build: ./frontend
+    ports: ["8080:8080"]
+    depends_on: [api]
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  documents:

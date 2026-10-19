@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "finguard-api",
+      "runtimeExecutable": "/Users/thaheera/Documents/FYP/backend/.venv/bin/uvicorn",
+      "runtimeArgs": ["finguard.main:app", "--app-dir", "/Users/thaheera/Documents/FYP/backend", "--port", "8010"],
+      "port": 8010
+    },
+    {
+      "name": "finguard-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/thaheera/Documents/FYP/frontend", "run", "dev"],
+      "port": 5173
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "n": 35,
+  "best": {
+    "act_max": 26,
+    "escalate_min": 72,
+    "agreement": 0.8571428571428571
+  },
+  "example_thresholds_45_70": {
+    "act_max": 45,
+    "escalate_min": 70,
+    "agreement": 0.6571428571428571
+  },
+  "scores": [
+    {
+      "task_id": "TASK-FB-006",
+      "expected": "AUTO",
+      "score": "16.25",
+      "original_composite": "14.7"
+    },
+    {
+      "task_id": "TASK-FO-007",
+      "expected": "VERIFY",
+      "score": "54.25",
+      "original_composite": "48"
+    },
+    {
+      "task_id": "TASK-TA-010",
+      "expected": "AUTO",
+      "score": "14.75",
+      "original_composite": "10.7"
+    },
+    {
+      "task_id": "TASK-TA-013",
+      "expected": "VERIFY",
+      "score": "26.25",
+      "original_composite": "22.7"
+    },
+    {
+      "task_id": "TASK-TA-016",
+      "expected": "VERIFY",
+      "score": "34.50",
+      "original_composite": "28.9"
+    },
+    {
+      "task_id": "TASK-TA-019",
+      "expected": "AUTO",
+      "score": "14.75",
+      "original_composite": "10.7"
+    },
+    {
+      "task_id": "TASK-TA-022",
+      "expected": "AUTO",
+      "score": "38.50",
+      "original_composite": "34.2"
+    },
+    {
+      "task_id": "TASK-TA-025",
+      "expected": "APPROVE",
+      "score": "71.50",
+      "original_composite": "70.7"
+    },
+    {
+      "task_id": "TASK-TA-028",
+      "expected": "AUTO",
+      "score": "25.75",
+      "original_composite": "20.9"
+    },
+    {
+      "task_id": "TASK-TA-031",
+      "expected": "AUTO",
+      "score": "21.25",
+      "original_composite": "19.6"
+    },
+    {
+      "task_id": "TASK-TA-034",
+      "expected": "AUTO",
+      "score": "20.50",
+      "original_composite": "15.1"
+    },
+    {
+      "task_id": "TASK-TA-037",
+      "expected": "APPROVE",
+      "score": "62.75",
+      "original_composite": "62.7"
+    },
+    {
+      "task_id": "TASK-TA-040",
+      "expected": "AUTO",
+      "score": "10.25",
+      "original_composite": "9.3"
+    },
+    {
+      "task_id": "TASK-TA-043",
+      "expected": "VERIFY",
+      "score": "28.50",
+      "original_composite": "21.8"
+    },
+    {
+      "task_id": "TASK-TA-046",
+      "expected": "VERIFY",
+      "score": "36.75",
+      "original_composite": "31.1"
+    },
+    {
+      "task_id": "TASK-TA-049",
+      "expected": "AUTO",
+      "score": "10.25",
+      "original_composite": "9.3"
+    },
+    {
+      "task_id": "TASK-TA-052",
+      "expected": "AUTO",
+      "score": "20.50",
+      "original_composite": "15.1"
+    },
+    {
+      "task_id": "TASK-TA-055",
+      "expected": "APPROVE",
+      "score": "89.50",
+      "original_composite": "89.8"
+    },
+    {
+      "task_id": "TASK-TA-058",
+      "expected": "AUTO",
+      "score": "21.25",
+      "original_composite": "19.6"
+    },
+    {
+      "task_id": "TASK-TA-061",
+      "expected": "AUTO",
+      "score": "23.50",
+      "original_composite": "18.7"
+    },
+    {
+      "task_id": "TASK-TA-064",
+      "expected": "AUTO",
+      "score": "22.75",
+      "original_composite": "17.3"
+    },
+    {
+      "task_id": "TASK-TA-067",
+      "expected": "APPROVE",
+      "score": "58.25",
+      "original_composite": "61.3"
+    },
+    {
+      "task_id": "TASK-TA-070",
+      "expected": "AUTO",
+      "score": "12.50",
+      "original_composite": "8.4"
+    },
+    {
+      "task_id": "TASK-TA-073",
+      "expected": "VERIFY",
+      "score": "30.75",
+      "original_composite": "24"
+    },
+    {
+      "task_id": "TASK-TA-076",
+      "expected": "VERIFY",
+      "score": "32.25",
+      "original_composite": "29.8"
+    },
+    {
+      "task_id": "TASK-TA-079",
+      "expected": "AUTO",
+      "score": "12.50",
+      "original_composite": "8.4"
+    },
+    {
+      "task_id": "TASK-TA-082",
+      "expected": "AUTO",
+      "score": "22.75",
+      "original_composite": "17.3"
+    },
+    {
+      "task_id": "TASK-TA-085",
+      "expected": "APPROVE",
+      "score": "69.25",
+      "original_composite": "71.6"
+    },
+    {
+      "task_id": "TASK-TA-088",
+      "expected": "AUTO",
+      "score": "41.50",
+      "original_composite": "37.8"
+    },
+    {
+      "task_id": "TASK-TA-091",
+      "expected": "AUTO",
+      "score": "25.75",
+      "original_composite": "20.9"
+    },
+    {
+      "task_id": "TASK-TA-094",
+      "expected": "AUTO",
+      "score": "18.25",
+      "original_composite": "16"
+    },
+    {
+      "task_id": "TASK-TA-097",
+      "expected": "APPROVE",
+      "score": "60.50",
+      "original_composite": "60.4"
+    },
+    {
+      "task_id": "TASK-TA-100",
+      "expected": "AUTO",
+      "score": "14.75",
+      "original_composite": "10.7"
+    },
+    {
+      "task_id": "TASK-TA-103",
+      "expected": "VERIFY",
+      "score": "26.25",
+      "original_composite": "22.7"
+    },
+    {
+      "task_id": "TASK-CALIB-031",
+      "expected": "AUTO",
+      "score": "26.50",
+      "original_composite": "22.2"
+    }
+  ],
+  "note": "Original composite scores in the CSV came from an earlier formula; scores are recomputed here."
+}

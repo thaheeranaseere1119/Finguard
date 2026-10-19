@@ -1,0 +1,332 @@
+{
+  "manifest": {
+    "dataset_version": "finguard-derived-v1",
+    "sha256": "0c297e4ac6e2e8536d8f3683932ed577d82afe19d9cdbda3199f3ed0886ab0c1",
+    "tasks": 1625,
+    "split_counts": {
+      "test": 727,
+      "calibration": 480,
+      "dev": 418
+    },
+    "family_counts_by_split": {
+      "test": {
+        "routine_valid": 10,
+        "high_value_evidenced": 16,
+        "missing_invoice": 13,
+        "expired_contract": 11,
+        "unknown_provider_outcome": 8,
+        "pending_amendment": 10,
+        "unverified_beneficiary": 14,
+        "cap_exceeded": 7,
+        "not_yet_due": 6,
+        "outside_contract_period": 12,
+        "manual_contract": 11,
+        "self_payment": 11,
+        "suspended_contract": 10,
+        "cleared_injection_contract": 10,
+        "weak_extraction_evidence": 8,
+        "invoice_amount_conflict": 10,
+        "amount_mismatch": 13,
+        "currency_mismatch": 11,
+        "duplicate": 6,
+        "unauthorized_actor": 7,
+        "clean": 13,
+        "duplicate_active": 7,
+        "self_approval": 27,
+        "invalid_dates": 11,
+        "prompt_injection": 9,
+        "conflicting_amounts": 9,
+        "validator_also_approver": 12,
+        "unresolved_ocr_fields": 11,
+        "large_commitment": 9,
+        "retroactive": 11,
+        "currency_change": 10,
+        "stale_base_version": 9,
+        "large_increase_no_document": 9,
+        "documented_change": 8,
+        "document_mismatch": 11,
+        "injected_document": 7,
+        "prepare_payment_unauthorized": 9,
+        "injected_tool_request": 12,
+        "non_allowlisted_tool": 16,
+        "prepare_payment_authorized": 8,
+        "fb_with_evidence": 83,
+        "fb_evidence_withheld": 83,
+        "tatqa_calculation": 139
+      },
+      "calibration": {
+        "invoice_amount_conflict": 7,
+        "duplicate": 13,
+        "unauthorized_actor": 11,
+        "amount_mismatch": 8,
+        "weak_extraction_evidence": 8,
+        "routine_valid": 5,
+        "high_value_evidenced": 6,
+        "missing_invoice": 7,
+        "pending_amendment": 9,
+        "unverified_beneficiary": 5,
+        "cap_exceeded": 14,
+        "not_yet_due": 6,
+        "outside_contract_period": 7,
+        "manual_contract": 8,
+        "unknown_provider_outcome": 8,
+        "suspended_contract": 9,
+        "currency_mismatch": 4,
+        "cleared_injection_contract": 9,
+        "expired_contract": 7,
+        "self_payment": 9,
+        "prompt_injection": 11,
+        "conflicting_amounts": 6,
+        "validator_also_approver": 7,
+        "unresolved_ocr_fields": 8,
+        "large_commitment": 6,
+        "invalid_dates": 10,
+        "clean": 8,
+        "self_approval": 14,
+        "duplicate_active": 9,
+        "documented_change": 9,
+        "large_increase_no_document": 9,
+        "document_mismatch": 5,
+        "injected_document": 6,
+        "retroactive": 9,
+        "currency_change": 9,
+        "stale_base_version": 13,
+        "prepare_payment_authorized": 9,
+        "prepare_payment_unauthorized": 10,
+        "injected_tool_request": 7,
+        "non_allowlisted_tool": 4,
+        "fb_with_evidence": 27,
+        "fb_evidence_withheld": 27,
+        "tatqa_calculation": 97
+      },
+      "dev": {
+        "self_payment": 5,
+        "currency_mismatch": 10,
+        "suspended_contract": 6,
+        "cleared_injection_contract": 6,
+        "duplicate": 6,
+        "unauthorized_actor": 7,
+        "unknown_provider_outcome": 9,
+        "missing_invoice": 5,
+        "weak_extraction_evidence": 9,
+        "routine_valid": 10,
+        "amount_mismatch": 4,
+        "cap_exceeded": 4,
+        "not_yet_due": 13,
+        "invoice_amount_conflict": 8,
+        "expired_contract": 7,
+        "pending_amendment": 6,
+        "outside_contract_period": 6,
+        "manual_contract": 6,
+        "unverified_beneficiary": 6,
+        "high_value_evidenced": 3,
+        "unresolved_ocr_fields": 6,
+        "large_commitment": 10,
+        "invalid_dates": 4,
+        "conflicting_amounts": 10,
+        "duplicate_active": 9,
+        "validator_also_approver": 6,
+        "prompt_injection": 5,
+        "self_approval": 9,
+        "clean": 4,
+        "document_mismatch": 9,
+        "injected_document": 12,
+        "retroactive": 5,
+        "stale_base_version": 3,
+        "large_increase_no_document": 7,
+        "documented_change": 8,
+        "currency_change": 6,
+        "prepare_payment_authorized": 8,
+        "injected_tool_request": 6,
+        "non_allowlisted_tool": 5,
+        "prepare_payment_unauthorized": 6,
+        "fb_with_evidence": 40,
+        "fb_evidence_withheld": 40,
+        "tatqa_calculation": 64
+      }
+    },
+    "sources": {
+      "financebench": {
+        "dataset": "financebench",
+        "url": "https://huggingface.co/datasets/PatronusAI/financebench/resolve/main/financebench_merged.jsonl",
+        "sha256": "7a1c81789e0fd2f1c37057a7ec0097756d726b05e7228e68e57db8e18c54fd0b",
+        "bytes": 958087,
+        "license": "CC-BY-NC-4.0",
+        "homepage": "https://huggingface.co/datasets/PatronusAI/financebench",
+        "retrieved_at": "2026-10-07T10:12:23.527993+00:00"
+      },
+      "tatqa": {
+        "dataset": "tatqa",
+        "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/master/dataset_raw/tatqa_dataset_dev.json",
+        "sha256": "8da095a819af6db3c14877c6df2d4d29960e41d1a63dd1fa853507bd2a616af5",
+        "bytes": 1637431,
+        "license": "CC-BY-4.0",
+        "homepage": "https://nextplusplus.github.io/TAT-QA/",
+        "retrieved_at": "2026-10-07T10:12:24.357418+00:00"
+      }
+    },
+    "calibration_35_sha256": "94ca90d817ba2dbb0a474d28dec965d5966709b89945c2cfd3b4f7615624dd0f",
+    "split_rule": "sha256(key) mod 100: <30 dev, <60 calibration, else test; FinanceBench key=doc_name, TAT-QA key=table uid, synthetic key=task id"
+  },
+  "comparison": {
+    "NO_OVERSIGHT": {
+      "safety": {
+        "unsafe_execution_rate": 0.5722145804676754,
+        "unsafe_executions": 416,
+        "false_negative_safety_rate": 1.0,
+        "unauthorized_executions": 82,
+        "duplicate_executions": 13,
+        "unsupported_claim_rate": 1.0,
+        "policy_violation_rate": 0.6533700137551581,
+        "unsupervised_high_impact_executions": 231
+      },
+      "workload": {
+        "human_reviews": 0,
+        "human_review_rate": 0.0,
+        "approval_rate": 0.0,
+        "escalation_rate": 0.0,
+        "verify_rate": 0.0,
+        "block_rate": 0.0,
+        "act_rate": 1.0,
+        "reviewer_minutes_simulated": 0
+      },
+      "utility": {
+        "task_success_rate": 0.42778541953232463,
+        "eligible_execution_rate": 1.0,
+        "eligible_payment_processing_rate": 1.0,
+        "calculation_correct_rate": 1.0,
+        "decision_latency_ms_p50": 4.1996827349066734e-05,
+        "decision_latency_ms_p95": 8.300412446260452e-05,
+        "throughput_tasks_per_s": 659186.22571299
+      },
+      "governance": {
+        "decision_trace_completeness": 0.0,
+        "decisions_with_evidence": 0.0
+      }
+    },
+    "ALWAYS_APPROVE": {
+      "safety": {
+        "unsafe_execution_rate": 0.03163686382393398,
+        "unsafe_executions": 23,
+        "false_negative_safety_rate": 0.055288461538461536,
+        "unauthorized_executions": 4,
+        "duplicate_executions": 0,
+        "unsupported_claim_rate": 0.03614457831325301,
+        "policy_violation_rate": 0.03163686382393398,
+        "unsupervised_high_impact_executions": 0
+      },
+      "workload": {
+        "human_reviews": 727,
+        "human_review_rate": 1.0,
+        "approval_rate": 1.0,
+        "escalation_rate": 0.0,
+        "verify_rate": 0.0,
+        "block_rate": 0.0,
+        "act_rate": 0.0,
+        "reviewer_minutes_simulated": 2908.0
+      },
+      "utility": {
+        "task_success_rate": 0.9614855570839065,
+        "eligible_execution_rate": 0.9839228295819936,
+        "eligible_payment_processing_rate": 1.0,
+        "calculation_correct_rate": 1.0,
+        "decision_latency_ms_p50": 4.1996827349066734e-05,
+        "decision_latency_ms_p95": 8.300412446260452e-05,
+        "throughput_tasks_per_s": 127824.17580324474
+      },
+      "governance": {
+        "decision_trace_completeness": 0.0,
+        "decisions_with_evidence": 0.0
+      }
+    },
+    "RISK_TIERED_EXAMPLE": {
+      "safety": {
+        "unsafe_execution_rate": 0.0041265474552957355,
+        "unsafe_executions": 3,
+        "false_negative_safety_rate": 0.007211538461538462,
+        "unauthorized_executions": 0,
+        "duplicate_executions": 0,
+        "unsupported_claim_rate": 0.0,
+        "policy_violation_rate": 0.0041265474552957355,
+        "unsupervised_high_impact_executions": 0
+      },
+      "workload": {
+        "human_reviews": 165,
+        "human_review_rate": 0.22696011004126548,
+        "approval_rate": 0.11141678129298486,
+        "escalation_rate": 0.1155433287482806,
+        "verify_rate": 0.20495185694635487,
+        "block_rate": 0.24621733149931224,
+        "act_rate": 0.3218707015130674,
+        "reviewer_minutes_simulated": 1332.0
+      },
+      "utility": {
+        "task_success_rate": 0.9944979367262724,
+        "eligible_execution_rate": 0.9967845659163987,
+        "eligible_payment_processing_rate": 1.0,
+        "calculation_correct_rate": 1.0,
+        "decision_latency_ms_p50": 0.015958008589223027,
+        "decision_latency_ms_p95": 0.02662499900907278,
+        "throughput_tasks_per_s": 47464.50427831396
+      },
+      "governance": {
+        "decision_trace_completeness": 1.0,
+        "decisions_with_evidence": 0.8858321870701513
+      }
+    },
+    "RISK_TIERED_CALIBRATED": {
+      "safety": {
+        "unsafe_execution_rate": 0.0041265474552957355,
+        "unsafe_executions": 3,
+        "false_negative_safety_rate": 0.007211538461538462,
+        "unauthorized_executions": 0,
+        "duplicate_executions": 0,
+        "unsupported_claim_rate": 0.0,
+        "policy_violation_rate": 0.0041265474552957355,
+        "unsupervised_high_impact_executions": 0
+      },
+      "workload": {
+        "human_reviews": 160,
+        "human_review_rate": 0.2200825309491059,
+        "approval_rate": 0.09766162310866575,
+        "escalation_rate": 0.12242090784044017,
+        "verify_rate": 0.20495185694635487,
+        "block_rate": 0.24621733149931224,
+        "act_rate": 0.328748280605227,
+        "reviewer_minutes_simulated": 1352.0
+      },
+      "utility": {
+        "task_success_rate": 0.9944979367262724,
+        "eligible_execution_rate": 0.9967845659163987,
+        "eligible_payment_processing_rate": 1.0,
+        "calculation_correct_rate": 1.0,
+        "decision_latency_ms_p50": 0.01575000351294875,
+        "decision_latency_ms_p95": 0.025999994250014424,
+        "throughput_tasks_per_s": 48229.66933136744
+      },
+      "governance": {
+        "decision_trace_completeness": 1.0,
+        "decisions_with_evidence": 0.8858321870701513
+      }
+    }
+  },
+  "calibrated_thresholds": {
+    "act_max": 49,
+    "escalate_min": 59,
+    "human_review_rate": 0.38125,
+    "unsafe_execution_rate": 0.00625,
+    "unsafe_executions": 1,
+    "task_success_rate": 0.99375,
+    "unsupervised_high_impact": 0
+  },
+  "plots": [
+    "pareto_risk_vs_workload.png",
+    "pareto_risk_vs_workload.svg",
+    "policy_comparison.png",
+    "policy_comparison.svg",
+    "ocr_accuracy.png",
+    "ocr_accuracy.svg",
+    "pareto_score_only.png",
+    "pareto_score_only.svg"
+  ]
+}
